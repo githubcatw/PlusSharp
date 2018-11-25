@@ -1,0 +1,4 @@
+# Basic Unity gitignore
+
+# Temp folder
+[Tt]emp/

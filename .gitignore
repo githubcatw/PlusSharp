@@ -3,5 +3,8 @@
 # Temp folder
 [Tt]emp/
 
+# images
+images/
+
 # Issue template
 ISSUE-TEMPLATE.md

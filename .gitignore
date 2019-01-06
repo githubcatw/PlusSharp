@@ -3,8 +3,12 @@
 # Temp folder
 [Tt]emp/
 
-# images
-images/
+# Builds
+*.apk
+*.exe
 
-# Issue template
-ISSUE-TEMPLATE.md
+# VS temp?
+.vs/
+
+# Images
+images/

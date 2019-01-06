@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace NUDev.PlusSharp
+namespace NUDev.PlusSharp.v141
 {
     public static class SceneManagerExtension
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-namespace NUDev.PlusSharp
+namespace NUDev.PlusSharp.v141
 {
     public static class TextureExtension
     {

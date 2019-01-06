@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace NUDev.PlusSharp
+namespace NUDev.PlusSharp.v141
 {
     public static class WebcamExtensions
     {

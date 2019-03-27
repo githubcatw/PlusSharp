@@ -10,5 +10,8 @@
 # VS temp?
 .vs/
 
+# The sample scene
+Assets/Scenes/SampleScene.unity
+
 # Images
 images/

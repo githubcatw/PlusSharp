@@ -8,4 +8,4 @@ C# extensions to simplify working with Unity, using the magic of extension metho
 
 For info, visit the [wiki](https://github.com/githubcatw/PlusSharp/wiki).
 
-To download PlusSharp, go to [Releases](https://github.com/githubcatw/PlusSharp/releases/). Older releases can be found in the [old repo](https://github.com/githubcatw/NUDevExtensions/releases).
+To download PlusSharp, download from the [latest release](https://github.com/githubcatw/PlusSharp/releases/latest). Older releases can be found in the [old repo](https://github.com/githubcatw/NUDevExtensions/releases).

@@ -394,7 +394,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1a2d0000
+    m_SelectedIDs: dc280000
     m_LastClickedID: 0
     m_ExpandedIDs: e6fbffff00000000
     m_RenameOverlay:
@@ -561,34 +561,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/PlusSharp/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/PlusSharp/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GitHubRepos\PlusSharp
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 862b0000
-    m_LastClickedID: 11142
+    m_SelectedIDs: 8e2b0000
+    m_LastClickedID: 11150
     m_ExpandedIDs: 00000000862b00008e2b0000882c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Editor
-      m_OriginalName: Editor
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 11362
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -629,7 +629,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000a85c000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

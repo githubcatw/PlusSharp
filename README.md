@@ -1,7 +1,5 @@
 # PlusSharp
 
-[![Join the chat at https://gitter.im/TalkPlusSharp/community](https://badges.gitter.im/TalkPlusSharp/community.svg)](https://gitter.im/TalkPlusSharp/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 ![Logo](../master/images/PS128.png)
 
 C# extensions to simplify working with Unity, using the magic of extension methods.

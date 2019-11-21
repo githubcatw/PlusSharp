@@ -10,7 +10,7 @@ namespace NUDev.PlusSharp
         /// <summary>
         /// Saves a texture to PNG.
         /// </summary>
-        /// <param name="path">The path.</param>
+        /// <param name="path">The path to the output PNG.</param>
         public static void SaveToPNG(this Texture2D texture, string path)
         {
             byte[] bytes = texture.EncodeToPNG();

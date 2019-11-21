@@ -3,6 +3,12 @@
 # Temp folder
 [Tt]emp/
 
+# Logs
+Logs/
+
+# EditorInstance, to stop Unity from showing an error
+Library/EditorInstance.json
+
 # Builds
 *.apk
 *.exe

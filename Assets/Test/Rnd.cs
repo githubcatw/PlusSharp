@@ -10,6 +10,7 @@ public class Rnd : MonoBehaviour
     {
         Debug.Log("sa".RandomString(7));
         Debug.Log("sa".RandomString(7, "ABCDEFG"));
+        Debug.Log("I remember that".Split(3).Length);
     }
 
     // Update is called once per frame

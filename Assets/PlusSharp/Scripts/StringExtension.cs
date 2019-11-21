@@ -25,5 +25,14 @@ namespace NUDev.PlusSharp {
             return new string(Enumerable.Repeat("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", length)
               .Select(s => s[Random.Range(0, s.Length)]).ToArray());
         }
+        /// <summary>
+        /// Split a string to equally sized chunks.
+        /// </summary>
+        /// <param name="chunkSize">Chunk size</param>
+        /// <returns></returns>
+        public static string[] Split(this string str, int chunkSize) {
+            return Enumerable.Range(0, str.Length / chunkSize)
+                .Select(i => str.Substring(i * chunkSize, chunkSize)).ToArray();
+        }
     }
 }

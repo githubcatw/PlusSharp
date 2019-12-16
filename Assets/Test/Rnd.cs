@@ -8,8 +8,11 @@ public class Rnd : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("sa".RandomString(7));
-        Debug.Log("sa".RandomString(7, "ABCDEFG"));
+        string st = "aaa";
+        Debug.Log(st.RandomString(7));
+        Debug.Log(st);
+        Debug.Log(st.RandomString(7, "ABCDEFG"));
+        Debug.Log(st);
         Debug.Log("I remember that".Split(3).Length);
     }
 

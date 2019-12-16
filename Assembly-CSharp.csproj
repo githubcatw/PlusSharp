@@ -67,6 +67,7 @@
     <Compile Include="Assets\PlusSharp\Scripts\SceneManagerExtension.cs" />
     <Compile Include="Assets\PlusSharp\Scripts\StringExtension.cs" />
     <Compile Include="Assets\PlusSharp\Scripts\TextureExtension.cs" />
+    <Compile Include="Assets\Test\GetRT.cs" />
     <Compile Include="Assets\Test\Rnd.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/GitHubRepos/PlusSharp/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

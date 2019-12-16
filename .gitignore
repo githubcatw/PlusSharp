@@ -19,5 +19,9 @@ Library/EditorInstance.json
 # The sample scene
 Assets/Scenes/SampleScene.unity
 
+
 # Images
 images/
+
+# Testing folder
+Assets/Test

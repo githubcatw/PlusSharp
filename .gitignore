@@ -6,8 +6,8 @@
 # Logs
 Logs/
 
-# EditorInstance, to stop Unity from showing an error
-Library/EditorInstance.json
+# Library
+Library/
 
 # Builds
 *.apk

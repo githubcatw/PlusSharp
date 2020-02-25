@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\User\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_PlusSharp.-910385862.00" t="ExcludeRecursive" />
+    <e p="D:\GitHubRepos\PlusSharp" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="PlusSharp" t="Include">
+          <e p="Editor" t="Include">
+            <e p="360Capture.cs" t="Include" />
+            <e p="ElevatedFind.cs" t="Include" />
+            <e p="MoveGameCameraToEditorCamera.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="GameObjectExtension.cs" t="Include" />
+            <e p="SceneManagerExtension.cs" t="Include" />
+            <e p="StringExtension.cs" t="Include" />
+            <e p="TextureExtension.cs" t="Include" />
+            <e p="VectorExtension.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Test" t="Include">
+          <e p="GetRT.cs" t="Include" />
+          <e p="Rnd.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PlusSharp.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

@@ -26,3 +26,6 @@ images/
 # Testing folder
 Assets/Test
 Assets/Test.meta
+
+# IDEA
+.idea/

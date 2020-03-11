@@ -6,8 +6,9 @@
 # Logs
 Logs/
 
-# Library
+# Library and objects
 Library/
+obj/
 
 # Builds
 *.apk

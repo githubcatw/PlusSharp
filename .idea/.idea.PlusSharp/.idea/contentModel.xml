@@ -26,6 +26,7 @@
             <e p="TestScriptUnacker.cs" t="Include" />
           </e>
           <e p="GetRT.cs" t="Include" />
+          <e p="PlayAnimationToMaterial.cs" t="Include" />
           <e p="Rnd.cs" t="Include" />
         </e>
       </e>

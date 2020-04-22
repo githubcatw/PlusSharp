@@ -12,10 +12,9 @@ namespace NUDev.PlusSharp {
         /// <param name="length">The length of the string.</param>
         /// <param name="chars">What characters to include.</param>
         /// <returns>A random string.</returns>
-        public static string RandomString(this string str, int length, string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789") {
+        public static string RandomString( int length, string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789") {
             var st = new string(Enumerable.Repeat(chars, length)
               .Select(s => s[Random.Range(0, s.Length)]).ToArray());
-			str = st;
 			return st;
         }
 

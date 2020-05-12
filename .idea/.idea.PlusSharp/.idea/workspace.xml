@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e0b60903-caf6-4e59-8a70-1f686902a4f6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlusSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlusSharp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/08d840-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/08d840-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/c9ecee-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/c9ecee-mainStage.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestScriptUnacker.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestScriptUnacker.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Test/Editor/TestScriptUnacker.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="735">
@@ -42,21 +47,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Rnd.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Test/Rnd.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+              <folding>
+                <marker date="1587557766578" expanded="false" signature="6:132" ph="..." />
+                <marker date="1587557766578" expanded="true" signature="166:578" ph="{...}" />
+                <marker date="1587557766578" expanded="true" signature="238:497" ph="{...}" />
+                <marker date="1587557766578" expanded="true" signature="555:576" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="StringExtension.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/PlusSharp/Scripts/StringExtension.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="166">
+              <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
               <folding>
-                <marker date="1587556772116" expanded="true" signature="6:127" ph="..." />
-                <marker date="1587556772116" expanded="true" signature="155:2690" ph="{...}" />
-                <marker date="1587556772116" expanded="true" signature="197:2688" ph="{...}" />
-                <marker date="1587556772116" expanded="true" signature="207:491" ph="/// Returns a random string. Don't use for secure stuff. ... " />
-                <marker date="1587556772116" expanded="true" signature="618:790" ph="{...}" />
-                <marker date="1587556772116" expanded="true" signature="800:975" ph="/// Split a string to equally sized chunks. ... " />
-                <marker date="1587556772116" expanded="true" signature="1045:1200" ph="{...}" />
-                <marker date="1587556772116" expanded="true" signature="1280:1773" ph="/// Takes a substring between two anchor strings (or the end of the string if that anchor is null). ... " />
-                <marker date="1587556772116" expanded="true" signature="1944:2682" ph="{...}" />
+                <marker date="1587557703346" expanded="true" signature="6:127" ph="..." />
+                <marker date="1587557703346" expanded="true" signature="155:2661" ph="{...}" />
+                <marker date="1587557703346" expanded="true" signature="197:2659" ph="{...}" />
+                <marker date="1587557703346" expanded="true" signature="207:491" ph="/// Returns a random string. Don't use for secure stuff. ... " />
+                <marker date="1587557703346" expanded="true" signature="602:761" ph="{...}" />
+                <marker date="1587557703346" expanded="true" signature="771:946" ph="/// Split a string to equally sized chunks. ... " />
+                <marker date="1587557703346" expanded="true" signature="1016:1171" ph="{...}" />
+                <marker date="1587557703346" expanded="true" signature="1251:1744" ph="/// Takes a substring between two anchor strings (or the end of the string if that anchor is null). ... " />
+                <marker date="1587557703346" expanded="true" signature="1915:2653" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,6 +89,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Test/Editor/TestScriptUnacker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Test/Rnd.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlusSharp/Scripts/StringExtension.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Test/Binder.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -78,6 +99,7 @@
         <option value="$PROJECT_DIR$/Assets/Test/Binder.cs" />
         <option value="$PROJECT_DIR$/Assets/Test/Editor/TestScriptUnacker.cs" />
         <option value="$PROJECT_DIR$/Assets/PlusSharp/Scripts/StringExtension.cs" />
+        <option value="$PROJECT_DIR$/Assets/Test/Rnd.cs" />
       </list>
     </option>
   </component>
@@ -152,12 +174,12 @@
       <updated>1585691006968</updated>
       <workItem from="1585691010196" duration="99000" />
       <workItem from="1585691343313" duration="725000" />
-      <workItem from="1587556453582" duration="953000" />
+      <workItem from="1587556453582" duration="1705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1777000" />
+    <option name="totallyTimeSpent" value="2529000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -170,7 +192,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -230,24 +251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PlusSharp/Scripts/StringExtension.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <marker date="1587556772116" expanded="true" signature="6:127" ph="..." />
-            <marker date="1587556772116" expanded="true" signature="155:2690" ph="{...}" />
-            <marker date="1587556772116" expanded="true" signature="197:2688" ph="{...}" />
-            <marker date="1587556772116" expanded="true" signature="207:491" ph="/// Returns a random string. Don't use for secure stuff. ... " />
-            <marker date="1587556772116" expanded="true" signature="618:790" ph="{...}" />
-            <marker date="1587556772116" expanded="true" signature="800:975" ph="/// Split a string to equally sized chunks. ... " />
-            <marker date="1587556772116" expanded="true" signature="1045:1200" ph="{...}" />
-            <marker date="1587556772116" expanded="true" signature="1280:1773" ph="/// Takes a substring between two anchor strings (or the end of the string if that anchor is null). ... " />
-            <marker date="1587556772116" expanded="true" signature="1944:2682" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Test/Binder.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -276,6 +279,37 @@
             <marker date="1585691712201" expanded="true" signature="1183:1265" ph="{...}" />
             <marker date="1585691712201" expanded="true" signature="1389:1825" ph="{...}" />
             <marker date="1585691712201" expanded="true" signature="1429:1815" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PlusSharp/Scripts/StringExtension.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <marker date="1587557703346" expanded="true" signature="6:127" ph="..." />
+            <marker date="1587557703346" expanded="true" signature="155:2661" ph="{...}" />
+            <marker date="1587557703346" expanded="true" signature="197:2659" ph="{...}" />
+            <marker date="1587557703346" expanded="true" signature="207:491" ph="/// Returns a random string. Don't use for secure stuff. ... " />
+            <marker date="1587557703346" expanded="true" signature="602:761" ph="{...}" />
+            <marker date="1587557703346" expanded="true" signature="771:946" ph="/// Split a string to equally sized chunks. ... " />
+            <marker date="1587557703346" expanded="true" signature="1016:1171" ph="{...}" />
+            <marker date="1587557703346" expanded="true" signature="1251:1744" ph="/// Takes a substring between two anchor strings (or the end of the string if that anchor is null). ... " />
+            <marker date="1587557703346" expanded="true" signature="1915:2653" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Test/Rnd.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+          <folding>
+            <marker date="1587557766578" expanded="false" signature="6:132" ph="..." />
+            <marker date="1587557766578" expanded="true" signature="166:578" ph="{...}" />
+            <marker date="1587557766578" expanded="true" signature="238:497" ph="{...}" />
+            <marker date="1587557766578" expanded="true" signature="555:576" ph="{...}" />
           </folding>
         </state>
       </provider>

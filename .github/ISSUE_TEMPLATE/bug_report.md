@@ -24,7 +24,9 @@ assignees: ''
 
 ## Setup
 Unity version: 
+
 PlusSharp version: 
+
 OS version: 
 
 <!-- Add any extra information you want. -->

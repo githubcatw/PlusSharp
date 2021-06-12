@@ -37,8 +37,7 @@ namespace NUDev.PlusSharp
         /// <summary>
         /// Gets the RectTransform of an object. Like GameObject.transform.
         /// </summary>
-        public static RectTransform rectTransform(this GameObject go) {
-            return go.GetComponent<RectTransform>();
-        }
+        public static RectTransform rectTransform(this GameObject go)
+            => go.GetComponent<RectTransform>();
     }
 }

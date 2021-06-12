@@ -15,7 +15,7 @@ namespace NUDev.PlusSharp {
         /// </summary>
         public GameObject[] canvases;
 
-        [HideInInspector]public int currentIndex;
+        [HideInInspector] public int currentIndex;
 
         /// <summary>
         /// Set a canvas active.

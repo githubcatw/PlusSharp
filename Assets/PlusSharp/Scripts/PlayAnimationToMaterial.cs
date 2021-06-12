@@ -16,23 +16,50 @@ namespace NUDev.PlusSharp {
         [Tooltip("Should the animation be played at start?")]
         public bool playOnStart;
 
+        private bool shouldPlay = true;
+        private bool shouldStop;
+
         // Use this for initialization
         void Start() {
-            StartCoroutine(Play());
+            if (playOnStart) Play();
         }
 
-        // Update is called once per frame
-        void Update() {
+        /// <summary>
+        /// Pause the video.
+        /// </summary>
+        public void Pause() { shouldPlay = false; }
 
+        /// <summary>
+        /// Resume the video.
+        /// </summary>
+        public void Resume() {
+            if (shouldStop == true) shouldStop = false;
+            shouldPlay = true;
         }
 
-        public IEnumerator Play() {
-            // return null so an external script can do other things
-            yield return null;
+        /// <summary>
+        /// Play the video.
+        /// </summary>
+        public void Play() {
+            if (shouldStop == true) shouldStop = false;
+            shouldPlay = true;
+            StartCoroutine(PlayAsync());
+        }
+
+        /// <summary>
+        /// Stop the video.
+        /// </summary>
+        public void Stop() { shouldStop = true; }
+
+        public IEnumerator PlayAsync() {
             // get reference to a material
             Material mat = GetComponent<Renderer>().material;
             // play our animation
             for (int i = 0; i < animation.Length; i++) {
+                // If shouldStop is true, break
+                if (shouldStop == true) yield break;
+                // Wait for shouldPlay to be true
+                yield return new WaitUntil(() => shouldPlay = true);
                 // set texture
                 mat.mainTexture = animation[i];
                 // loop

@@ -7,15 +7,28 @@ using Random = UnityEngine.Random;
 namespace NUDev.PlusSharp {
     public static class StringExtension {
         /// <summary>
-        /// Returns a random string. Don't use for secure stuff.
+        /// Returns a random string. For secure stuff use <see cref="SecureRandomString(int, string)"/>.
         /// </summary>
         /// <param name="length">The length of the string.</param>
         /// <param name="chars">What characters to include.</param>
         /// <returns>A random string.</returns>
-        public static string RandomString( int length, string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789") {
+        public static string RandomString(int length, string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789") {
             var st = new string(Enumerable.Repeat(chars, length)
               .Select(s => s[Random.Range(0, s.Length)]).ToArray());
 			return st;
+        }
+
+        /// <summary>
+        /// Returns a random string using a secure RNG.
+        /// </summary>
+        /// <param name="length">The length of the string.</param>
+        /// <param name="chars">What characters to include.</param>
+        /// <returns>A random string.</returns>
+        public static string SecureRandomString(int length, string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789") {
+            var rng = new SecureRNG();
+            var st = new string(Enumerable.Repeat(chars, length)
+              .Select(s => s[rng.Next(0, s.Length)]).ToArray());
+            return st;
         }
 
         /// <summary>
